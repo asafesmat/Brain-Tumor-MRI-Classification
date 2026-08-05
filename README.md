@@ -1,6 +1,6 @@
 # 🧠 Brain Tumor MRI Classification using Deep Learning
 
-![Application Screenshot](Images/image.png)
+![Application Screenshot](Images/image1.png)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
