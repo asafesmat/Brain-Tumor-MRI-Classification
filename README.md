@@ -1,42 +1,49 @@
-# 🧠 Brain Tumor MRI Classification
+# 🧠 Brain Tumor MRI Classification using Deep Learning
 
-![App Screenshot](Images\image.png)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-DeepLearning-red?logo=keras)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-A Deep Learning web application for Brain Tumor MRI Classification using VGG16 Transfer Learning and Streamlit.
+## 📌 Project Overview
 
----
+This project is a **Deep Learning web application** that classifies Brain MRI images into four categories using **Transfer Learning with VGG16**.
 
-## 📌 Overview
-
-This project classifies brain MRI images into four classes:
-
-- Glioma
-- Meningioma
-- Pituitary
-- No Tumor
-
-The model was trained using TensorFlow/Keras with VGG16 as the backbone network.
+The application allows users to upload an MRI image through a **Streamlit interface**, and the trained model predicts the tumor type instantly.
 
 ---
 
-## 🚀 Features
+## 🎯 Classes
 
-- Upload MRI image
-- Automatic preprocessing
-- Predict tumor type
-- Displays predicted class
-- Streamlit web interface
+The model classifies MRI images into:
+
+- 🧠 Glioma
+- 🧠 Meningioma
+- 🧠 Pituitary
+- ✅ No Tumor
 
 ---
 
-## 🛠️ Technologies
+## 🏗️ Model Architecture
+
+- VGG16 (Pretrained on ImageNet)
+- Transfer Learning
+- Global Average Pooling
+- Fully Connected Layers
+- Softmax Output Layer
+
+---
+
+## 🛠️ Technologies Used
 
 - Python
-- TensorFlow / Keras
+- TensorFlow
+- Keras
 - OpenCV
 - NumPy
-- Streamlit
 - Pillow
+- Streamlit
 
 ---
 
@@ -49,19 +56,30 @@ Brain-Tumor-MRI-Classification/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
+├── images/
+│   └── app.png
+└── model/
 ```
 
 ---
 
-## ▶️ Run Locally
+## 🚀 Run Locally
 
-Create virtual environment
+### Clone Repository
+
+```bash
+git clone https://github.com/asafesmat/Brain-Tumor-MRI-Classification.git
+
+cd Brain-Tumor-MRI-Classification
+```
+
+### Create Virtual Environment
 
 ```bash
 python -m venv env
 ```
 
-Activate it
+### Activate Environment
 
 Windows
 
@@ -69,13 +87,19 @@ Windows
 env\Scripts\activate
 ```
 
-Install packages
+Linux / Mac
+
+```bash
+source env/bin/activate
+```
+
+### Install Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Streamlit
+### Run Application
 
 ```bash
 streamlit run app.py
@@ -83,22 +107,51 @@ streamlit run app.py
 
 ---
 
-## 📊 Model
+## 📊 Model Performance
 
-Backbone:
+| Metric | Value |
+|---------|-------|
+| Accuracy | **87.6%** |
+| Loss | 1.12 |
+| Backbone | VGG16 |
 
-- VGG16 (Transfer Learning)
+---
 
-Loss Function:
+## 🖼️ Application Preview
 
-- Sparse Categorical Crossentropy
+ضع صورة للتطبيق داخل المجلد:
 
-Optimizer:
+```
+images/app.png
+```
 
-- Adamax
+ثم ألغِ التعليق عن السطر التالي بعد إضافة الصورة:
+
+```markdown
+<!-- ![App Screenshot](images/app.png) -->
+```
+
+---
+
+## 📈 Future Improvements
+
+- Deploy on Streamlit Community Cloud
+- Grad-CAM Visualization
+- Better UI Design
+- Confidence Score Visualization
+- Support Batch Prediction
 
 ---
 
 ## 👨‍💻 Author
 
-Asaf Esmat
+**Asaf Esmat**
+
+- LinkedIn: https://www.linkedin.com/in/asaf-esmat
+- GitHub: https://github.com/asafesmat
+
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub.
