@@ -56,9 +56,8 @@ Brain-Tumor-MRI-Classification/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── images/
-│   └── app.png
-└── model/
+└── images/
+    └── app.png 
 ```
 
 ---
