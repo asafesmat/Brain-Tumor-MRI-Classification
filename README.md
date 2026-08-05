@@ -115,7 +115,7 @@ streamlit run app.py
 | Metric | Value |
 |---------|-------|
 | Accuracy | **92.3%** |
-| Loss | .27 |
+| Loss | 0.27 |
 | Backbone | VGG16 |
 
 ---
