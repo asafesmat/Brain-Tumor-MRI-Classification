@@ -1,5 +1,7 @@
 # 🧠 Brain Tumor MRI Classification using Deep Learning
 
+![Application Screenshot](Images/image.png)
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
 ![Keras](https://img.shields.io/badge/Keras-DeepLearning-red?logo=keras)
@@ -118,7 +120,7 @@ streamlit run app.py
 
 ## 🖼️ Application Preview
 
-[App Screenshot](images/image.png)
+![Application Screenshot](Images/image.png)
 
 ## 📈 Future Improvements
 
