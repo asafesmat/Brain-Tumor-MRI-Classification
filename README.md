@@ -56,9 +56,8 @@ Brain-Tumor-MRI-Classification/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── images/
-│   └── app.png
-└── model/
+└── images/
+    └── image.png 
 ```
 
 ---
@@ -119,17 +118,7 @@ streamlit run app.py
 
 ## 🖼️ Application Preview
 
-ضع صورة للتطبيق داخل المجلد:
-
-```
-images/app.png
-```
-
-ثم ألغِ التعليق عن السطر التالي بعد إضافة الصورة:
-
-```markdown
-<!-- ![App Screenshot](images/app.png) -->
-```
+[App Screenshot](images/image.png)
 
 ---
 
@@ -147,7 +136,7 @@ images/app.png
 
 **Asaf Esmat**
 
-- LinkedIn: https://www.linkedin.com/in/asaf-esmat
+- LinkedIn: https://www.linkedin.com/in/asaf-esmat-557004357?utm_source=share_via&utm_content=profile&utm_medium=member_ios
 - GitHub: https://github.com/asafesmat
 
 ---
