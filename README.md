@@ -118,19 +118,7 @@ streamlit run app.py
 
 ## 🖼️ Application Preview
 
-ضع صورة للتطبيق داخل المجلد:
-
-```
-images/app.png
-```
-
-ثم ألغِ التعليق عن السطر التالي بعد إضافة الصورة:
-
-```markdown
-<!-- ![App Screenshot](images/app.png) -->
-```
-
----
+[App Screenshot](images/image.png)
 
 ## 📈 Future Improvements
 
