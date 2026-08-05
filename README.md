@@ -8,6 +8,8 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+- Link Notebook: https://www.kaggle.com/code/asafesmat/brain-tumor-mri-cnn92
+
 ## 📌 Project Overview
 
 This project is a **Deep Learning web application** that classifies Brain MRI images into four categories using **Transfer Learning with VGG16**.
