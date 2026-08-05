@@ -120,8 +120,6 @@ streamlit run app.py
 
 [App Screenshot](images/image.png)
 
----
-
 ## 📈 Future Improvements
 
 - Deploy on Streamlit Community Cloud
@@ -136,7 +134,7 @@ streamlit run app.py
 
 **Asaf Esmat**
 
-- LinkedIn: https://www.linkedin.com/in/asaf-esmat-557004357?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+- LinkedIn:[ https://www.linkedin.com/in/asaf-esmat](https://www.linkedin.com/in/asaf-esmat-557004357?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
 - GitHub: https://github.com/asafesmat
 
 ---
