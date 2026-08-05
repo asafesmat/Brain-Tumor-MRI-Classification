@@ -57,7 +57,7 @@ Brain-Tumor-MRI-Classification/
 ├── README.md
 ├── .gitignore
 └── images/
-    └── app.png 
+    └── image.png 
 ```
 
 ---
